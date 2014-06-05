@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Megrim:400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+
+html, body {
+	background: #fff;
+}
+
+.content {
+	padding-top: 75px;
+	width: 540px;
+	margin: 0 auto;
+}
+
+/*
+ * LANDING
+ */
+
+.landing {
+	height: 500px;
+	color: white;
+	text-align: center;
+	background-image: url('../images/header.jpg') !important;
+	background-repeat: no-repeat !important;
+	background-position: 50% 50% !important;
+	background-size: cover !important;
+}
+
+.landing .content {
+	border-bottom: none;
+}
+
+.landing h1 {
+	font-weight: normal;
+	font-size: 50px;
+	padding: 120px 0px 30px 0px;
+	letter-spacing: 5px;
+	font-family: "Megrim", serif;
+	font-weight: 700;
+}
+
+.landing span {
+	font-family: "Megrim";
+	font-size: 21px;
+}
+
+
+/*
+ * ABOUT
+ */
+
+
+.about p {
+	font-family: "Source Sans Pro";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 18px;
+	margin-bottom: 15px;
+	color: #333;
+}
+
+/*
+ * PROJECTS
+ */
+
+.projects {
+	float: left;
+	width: 100%;
+}
+
+.projects .row {
+	margin-bottom: 10px;
+	width: 100%;
+}
+.projects .row:last-child {
+	margin-bottom: 70px;
+}
+
+.projects h3 {
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin: 10px 0px 20px 0px;
+}
+
+.projects .row img.polaroid {
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
+	border: solid 8px white;
+	margin-right: 10px;
+	width: 105px;
+	height: 105px;
+}
+
+.projects .row img.polaroid:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+/*
+ * FOOTER
+ */
+
+.footer {
+	float: left;
+	width: 100%;
+	height: 90px;
+	line-height: 90px;
+	background: #F8f8ff;
+	border-top: solid 1px #dedede;
+}
+
+.footer .content {
+	padding: 0;
+
+}
+
+
